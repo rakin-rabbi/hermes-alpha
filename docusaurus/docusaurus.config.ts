@@ -3,20 +3,20 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'DevToDollars',
-  tagline: 'Helping Developers Become Founders',
+  title: 'Innovint Hermes Alpha',
+  tagline: 'Providing Assistance to the World',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://resources.devtodollars.com',
+  url: 'https://hermes.innovint.com.au',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'devtodollars', // Usually your GitHub org/user name.
-  projectName: 'website', // Usually your repo name.
+  organizationName: 'Innovint', // Usually your GitHub org/user name.
+  projectName: 'Hermes-Alpha', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -110,7 +110,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} DevToDollars`,
+      copyright: `Copyright © ${new Date().getFullYear()} Innovint`,
     },
     prism: {
       theme: prismThemes.github,
